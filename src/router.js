@@ -40,7 +40,7 @@ export default new Router({
     {
       path: '/developers',
       name: 'Developers',
-      component: Sponsors
+      component: Developers
     },
     {
       path: '*',

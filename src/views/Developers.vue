@@ -33,7 +33,7 @@
       click-mode="push"
     />
     <br><br><br><br><br>
-
+<div style="text-align:center">
     <div class="card">
       <div class="additional">
         <img
@@ -193,6 +193,7 @@
         </span>
       </div>
     </div>
+</div>
   </v-container>
 </template>
 
@@ -246,7 +247,7 @@ a {
 .fa-github-square:hover {
 	display: inline;
 	color: #6e5494;
-	font-size: 300%;
+	font-size: 250%;
 	transition: all .5s
 }
 
@@ -259,7 +260,7 @@ a {
 .fa-linkedin:hover {
 	display: inline;
 	color: #0077b5;
-	font-size: 300%;
+	font-size: 250%;
 	transition: all .5s
 }
 
@@ -368,7 +369,7 @@ a {
 .card:hover .additional {
 	width: 100%;
 	text-shadow: 1px 1px 1.5px #000;
-	background-image: linear-gradient(to right, rgba(255,255,255,0.25),rgba(255,255,255,0.9), rgba(0,0,0,1),rgba(255,255,255,0.9), rgba(255,255,255,0.25));
+	background: rgba(0,0,0,1);
 	border-radius: 0 5px 5px 0
 }
 

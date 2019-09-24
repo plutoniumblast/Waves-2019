@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Events from './views/Events.vue'
 import Contact from './views/Contact.vue'
 import Sponsors from './views/Sponsors.vue'
+import Developers from './views/Developers.vue'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
     {
       path: '/sponsors',
       name: 'Sponsors',
+      component: Sponsors
+    },
+    {
+      path: '/developers',
+      name: 'Developers',
       component: Sponsors
     },
     {

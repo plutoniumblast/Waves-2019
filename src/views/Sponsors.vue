@@ -486,7 +486,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .quotes {
   display: flex;
   flex-wrap: wrap;
@@ -495,7 +494,6 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-
 .quotes .box {
   position: relative;
   width: 23.5vw;
@@ -512,7 +510,6 @@ body {
   box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
-
 .quotes .box::before {
   position: absolute;
   top: -20px;
@@ -524,7 +521,6 @@ body {
   background: transparent;
   pointer-events: none;
 }
-
 .quotes .box::after {
   position: absolute;
   bottom: -10%;
@@ -535,12 +531,10 @@ body {
   filter: invert(1);
   pointer-events: none;
 }
-
 .quotes .box:hover {
   color: #f2f2f2;
   box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
 }
-
 .quotes .bg {
   position: absolute;
   top: 0%;
@@ -553,7 +547,6 @@ body {
   height: 100%;
   overflow: hidden;
 }
-
 .quotes .box.box1:hover,
 .quotes .box.box1:hover ~ .bg {
   opacity: 1;
@@ -563,7 +556,6 @@ body {
   background: linear-gradient(135deg, #e2a9e5 15%, #2b94e5 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', endColorstr='#2b94e5',GradientType=1 );
 }
-
 .quotes .box.box2:hover,
 .quotes .box.box2:hover ~ .bg {
   opacity: 1;
@@ -573,7 +565,6 @@ body {
   background: linear-gradient(135deg, #632c65 15%, #56a5e2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#632c65', endColorstr='#56a5e2',GradientType=1 );
 }
-
 .quotes .box.box3:hover,
 .quotes .box.box3:hover ~ .bg {
   opacity: 1;
@@ -583,7 +574,6 @@ body {
   background: linear-gradient(135deg, #4b384c 15%, #da5de2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b384c', endColorstr='#da5de2',GradientType=1 );
 }
-
 img {
   width: 67%;
   height: 67%;
@@ -592,7 +582,6 @@ img {
   margin-right: auto;
   border-radius: 10px;
 }
-
 h2 {
   opacity: 0;
   transition: opacity 0.5s ease-in;
@@ -602,7 +591,6 @@ h2 {
   font-size: 3vh;
   font-weight: bold;
 }
-
 p {
   opacity: 0;
   transition: opacity 0.5s ease-in;
@@ -612,21 +600,17 @@ p {
   text-align: center;
   font-size: 2vh;
 }
-
 .box:hover > h2 {
   opacity: 1;
   color: white;
 }
-
 .box:hover > p {
   opacity: 1;
   color: white;
 }
-
 .box:hover > img {
   box-shadow: 15px 40px 80px rgba(0, 0, 0, 0.5);
 }
-
 .card {
   display: block;
   text-align: center;
@@ -636,43 +620,36 @@ p {
   margin-right: 5%;
   width: 90%;
 }
-
 .contacts {
   display: flex;
   padding-left: 30%;
   padding-right: 30%;
 }
-
 .contact-detail {
   width: 60%;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
 .name {
   display: block;
   text-align: center;
   font-weight: bold;
   font-size: 2.5vw;
 }
-
 .email {
   display: block;
   text-align: center;
   font-style: italic;
   font-size: 1.2vw;
 }
-
 .mob-no {
   display: block;
   text-align: center;
 }
-
 .buttons-row {
   display: block;
   text-align: center;
 }
-
 .heading {
   display: block;
   text-align: center;
@@ -681,13 +658,11 @@ p {
   margin-bottom: 2%;
   color: white;
 }
-
 .header {
   padding-bottom: 4%;
   padding-top: 3%;
   background: #1c2938;
 }
-
 .box {
   width: 90%;
   margin-left: 5%;

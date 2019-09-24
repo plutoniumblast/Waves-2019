@@ -3,18 +3,7 @@
     fluid
     class="outside"
   >
-    <v-layout
-      row
-      wrap
-    >
-      <v-flex xs12>
-        <h1 class="heading-1">
-          DEVELOPERS
-        </h1>
-      </v-flex>
-    </v-layout>
-
-    <vue-particles
+  <vue-particles
       class="Neeche"
       color="#dedede"
       :particle-opacity="0.7"
@@ -32,8 +21,134 @@
       :click-effect="true"
       click-mode="push"
     />
-    <br><br><br><br><br>
+
+        <h1 class="heading-1">
+          About MAC
+        </h1>
+
+ <br><br><br>
+
 <div style="text-align:center">
+       <div class="card">
+      <div class="additional">
+        <img
+          class="manav"
+          src="../../public/manav.jpg"
+        >
+        <div class="more-info">
+          <h1>Priyesh</h1>
+          <div class="coords">
+            <span>seksariamanav.2000@gmail.com<br>Coordinator</span>
+          </div>
+          <div class="stats">
+            <div>
+              <div class="title">
+                GitHub
+              </div>
+              <a href="https://github.com/plutoniumblast/">
+                <i class="fab fa-github-square" />
+              </a>
+            </div>
+            <div>
+              <div class="title">
+                LinkedIn
+              </div>
+              <a href="https://www.linkedin.com/in/manav-seksaria-866961180/">
+                <i class="fab fa-linkedin" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general">
+        <h1>Priyesh</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.</p>
+        <span class="more">
+          Mouse over the card for more info
+        </span>
+      </div>
+    </div>
+
+       <div class="card">
+      <div class="additional">
+        <img
+          class="manav"
+          src="../../public/manav.jpg"
+        >
+        <div class="more-info">
+          <h1>Nipun</h1>
+          <div class="coords">
+            <span>seksariamanav.2000@gmail.com<br>Sub Coordinator</span>
+          </div>
+          <div class="stats">
+            <div>
+              <div class="title">
+                GitHub
+              </div>
+              <a href="https://github.com/plutoniumblast/">
+                <i class="fab fa-github-square" />
+              </a>
+            </div>
+            <div>
+              <div class="title">
+                LinkedIn
+              </div>
+              <a href="https://www.linkedin.com/in/manav-seksaria-866961180/">
+                <i class="fab fa-linkedin" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general">
+        <h1>Nipun</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.</p>
+        <span class="more">
+          Mouse over the card for more info
+        </span>
+      </div>
+    </div>
+
+
+       <div class="card">
+      <div class="additional">
+        <img
+          class="manav"
+          src="../../public/manav.jpg"
+        >
+        <div class="more-info">
+          <h1>Yash Jain</h1>
+          <div class="coords">
+            <span>seksariamanav.2000@gmail.com<br>Project Manager</span>
+          </div>
+          <div class="stats">
+            <div>
+              <div class="title">
+                GitHub
+              </div>
+              <a href="https://github.com/plutoniumblast/">
+                <i class="fab fa-github-square" />
+              </a>
+            </div>
+            <div>
+              <div class="title">
+                LinkedIn
+              </div>
+              <a href="https://www.linkedin.com/in/manav-seksaria-866961180/">
+                <i class="fab fa-linkedin" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general">
+        <h1>Yash Jain</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.</p>
+        <span class="more">
+          Mouse over the card for more info
+        </span>
+      </div>
+    </div>
     <div class="card">
       <div class="additional">
         <img
@@ -73,7 +188,16 @@
         </span>
       </div>
     </div>
+</div>
 
+<br>
+        <h1 class="heading-1">
+          DEVELOPERS
+        </h1>
+
+
+    <br><br><br><br><br>
+<div style="text-align:center">
     <div class="card">
       <div class="additional">
         <img
@@ -213,8 +337,8 @@
 	font-family: Inconsolata, cursive;
 	color: #fff;
 	z-index: 0;
-	position: absolute;
-	left: 42vw;
+	position: relative;
+	text-align: center;
 	top: 0
 }
 
@@ -228,7 +352,7 @@
 
 .outside {
 	width: 100%;
-	height: 97.7vh;
+	height: auto;
 	background-image: linear-gradient(to bottom, #a3ad32 0%, #0c639a 100%);
 	padding-left: 0;
 	padding-right: 0;

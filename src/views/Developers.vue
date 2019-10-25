@@ -158,7 +158,7 @@
         <div class="more-info">
           <h1>Rajath Reghunath</h1>
           <div class="coords">
-            <span>rrgodhorus@gmail.com<br>Designer and Developer</span>
+            <span>rrgodhorus@gmail.com<br>Web Development Head</span>
           </div>
           <div class="stats">
             <div>
@@ -247,7 +247,7 @@
         <div class="more-info">
           <h1>Nikhil Boddupalli</h1>
           <div class="coords">
-            <span>nikhil2001.12.5@gmail.com<br>Designer and Developer</span>
+            <span>nikhil2001.12.5@gmail.com<br>Developer</span>
           </div>
           <div class="stats">
             <div>
@@ -287,7 +287,7 @@
         <div class="more-info">
           <h1>Pulkit Purwar</h1>
           <div class="coords">
-            <span>ppulkit2707@gmail.com<br>Designer and Developer</span>
+            <span>ppulkit2707@gmail.com<br>Developer</span>
           </div>
           <div class="stats">
             <div>
